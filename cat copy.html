@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Google-Noto-Emoji-Animals-Nature-22214-dog-face.ico" type="image/x-icon">
+    <title>PetDog</title>
+    
+    <style>
+
+        body {
+            background-image: url(dog.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 8px;
+            /* margin-left: 50px; */
+            font-family: Arial, sans-serif;
+            text-shadow: 6px 4px 5px black;
+            color: orange;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        hr {
+            border: 1;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            
+        }
+
+        .coluna1 { 
+            width: 600px;
+            height: 700px;
+        }
+
+    
+
+        .formulario {
+            display: block;
+            width: 500px;
+            color: orange;
+            margin-top: 110px ; 
+            margin-left: 50px;  
+            font-family: sans-serif;
+
+        }
+
+        fieldset {
+            border: 0px;
+        }
+
+        .dados {
+            display: inline-block;
+            width: 171px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            text-align: justify;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        
+        .subdado {
+            width: 195px;
+            
+        }
+        
+      
+
+        .botao {
+            cursor: pointer; /* muda para maozinha */
+            font-size: 15px;
+            border: 0;
+            margin-right: 50%;
+            display: inline-block;
+            padding: 0.3em 0.5em;
+            position: absolute;
+            left: 27.4%;
+            border-radius: 10px;
+            box-shadow: 6px 4px 9px black;
+            font-weight: bold;
+           
+        }
+
+        .dados1, .dados2 {
+            font-weight: bold;
+            
+            
+        }
+
+
+
+        .botao:hover {
+            color: black;
+            background: orange;
+            /* box-shadow: 6px 4px 9px black; */
+        }
+
+        input {
+            border-radius: 10px;
+            /* color: black; */
+            border: 0px;
+            padding: 3px;
+            font-size: 14px;
+        }
+
+        .subdado:focus {
+            background: white;
+            
+            padding: 3px;
+
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1><img src="dog50.png" alt="dogpet"> CADASTRO DO PET <img src="dog50.png" alt="dogpet"></h1>
+        <hr>
+    </div>
+
+    <main>
+
+        
+
+        <div class="coluna2">
+            <form class="formulario" action="#" method="post">
+
+
+                <fieldset>
+
+                    <!-- <legend>Cadastre-se</legend> -->
+
+                    
+
+                    
+
+                    
+    
+                    <label class="dados" for="nome">Nome do cão:</label>
+                    <input class="subdado" type="text">
+                    <br>
+
+                    <label class="dados" for="nome">Raça:</label>
+                    <input class="subdado" type="text">
+                    <br> 
+    
+                    <label class="dados" for="nome">Nascimento do pet:</label>
+                    <input type="date">
+                    <br>
+    
+                    <label class="dados" for="sexo">Sexo:</label>
+    
+                    <label class="dados1">
+                        <input type="radio" name="sexo" value="M">Macho
+                    </label>
+    
+                    <label class="dados2">
+                        <input type="radio" name="sexo" value="F">Fêmea
+                    </label>
+                    <br>
+
+                    <label class="dados" for="nome">Dono (a):</label>
+                    <input class="subdado" type="text">
+                    <br>
+
+                    <label class="dados" for="nome">Email:</label>
+                    <input class="subdado" type="email" required>
+                    <br>
+
+                    <label class="dados" for="nome">Telefone celular:</label>
+                    <input class="subdado" type="tel">
+                    <br>
+    
+                                                               
+                        
+    
+    
+                </fieldset>
+
+                <button class="botao" type="submit" onsubmit="">Concluir</button>
+    
+    
+            </form>
+        </div>
+
+
+    </main>
+
+    <script>
+        window.alert('PÁGINA APENAS DEMONSTRATIVA !') 
+        window.confirm('SEJA BEM-VINDO !') 
+        // window.prompt('Qual é seu nome ?')
+        // window.alert('Seja bem vindo !')
+        
+        </script>
+    
+</body>
+</html>
